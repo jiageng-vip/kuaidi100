@@ -1,19 +1,19 @@
 <?php
 
 
-namespace HarriesCC\Kuaidi100;
+namespace Jiageng\Kuaidi100;
 
 use GuzzleHttp\Exception\GuzzleException;
-use HarriesCC\Kuaidi100\Exceptions\HttpException;
-use HarriesCC\Kuaidi100\Exceptions\InvalidArgumentException;
-use HarriesCC\Kuaidi100\Models\LabelCancelRequest;
-use HarriesCC\Kuaidi100\Models\LabelInterceptRequest;
-use HarriesCC\Kuaidi100\Models\LabelRequest;
+use Jiageng\Kuaidi100\Exceptions\HttpException;
+use Jiageng\Kuaidi100\Exceptions\InvalidArgumentException;
+use Jiageng\Kuaidi100\Models\LabelCancelRequest;
+use Jiageng\Kuaidi100\Models\LabelInterceptRequest;
+use Jiageng\Kuaidi100\Models\LabelRequest;
 
 /**
  * 电子面单
  * Class CloudPrint
- * @package HarriesCC\Kuaidi100
+ * @package Jiageng\Kuaidi100
  */
 class Label extends Base
 {
