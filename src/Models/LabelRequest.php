@@ -1,6 +1,6 @@
 <?php
 
-namespace HarriesCC\Kuaidi100\Models;
+namespace Jiageng\Kuaidi100\Models;
 
 class LabelRequest {
 
