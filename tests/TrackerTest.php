@@ -1,12 +1,12 @@
 <?php
 
-namespace HarriesCC\Kuaidi100\Tests;
+namespace Jiageng\Kuaidi100\Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use HarriesCC\Kuaidi100\Exceptions\InvalidArgumentException;
-use HarriesCC\Kuaidi100\Tracker;
+use Jiageng\Kuaidi100\Exceptions\InvalidArgumentException;
+use Jiageng\Kuaidi100\Tracker;
 
 class TrackerTest extends TestCase
 {
