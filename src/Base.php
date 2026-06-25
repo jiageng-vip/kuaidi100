@@ -1,14 +1,14 @@
 <?php
 
-namespace HarriesCC\Kuaidi100;
+namespace Jiageng\Kuaidi100;
 
 use GuzzleHttp\Client;
-use HarriesCC\Kuaidi100\Exceptions\InvalidArgumentException;
+use Jiageng\Kuaidi100\Exceptions\InvalidArgumentException;
 
 /**
  * 基础类
  * Class Base
- * @package HarriesCC\Kuaidi100
+ * @package Jiageng\Kuaidi100
  */
 class Base
 {
