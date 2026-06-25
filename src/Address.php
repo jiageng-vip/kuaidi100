@@ -1,18 +1,18 @@
 <?php
 
 
-namespace HarriesCC\Kuaidi100;
+namespace Jiageng\Kuaidi100;
 
 use GuzzleHttp\Exception\GuzzleException;
-use HarriesCC\Kuaidi100\Exceptions\HttpException;
-use HarriesCC\Kuaidi100\Exceptions\InvalidArgumentException;
-use HarriesCC\Kuaidi100\Models\AddressRequest;
-use HarriesCC\Kuaidi100\Models\LabelRequest;
+use Jiageng\Kuaidi100\Exceptions\HttpException;
+use Jiageng\Kuaidi100\Exceptions\InvalidArgumentException;
+use Jiageng\Kuaidi100\Models\AddressRequest;
+use Jiageng\Kuaidi100\Models\LabelRequest;
 
 /**
  * 地址解析
  * Class CloudPrint
- * @package HarriesCC\Kuaidi100
+ * @package Jiageng\Kuaidi100
  */
 class Address extends Base
 {
