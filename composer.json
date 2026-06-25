@@ -1,5 +1,5 @@
 {
-    "name": "jiageng-vip/kuaidi100",
+    "name": "jiageng/kuaidi100",
     "description": "基于快递100，查询智能推送，云打印，短信",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jiageng-vip\\Kuaidi100\\": "src"
+            "Jiageng\\Kuaidi100\\": "src"
         }
     }
 }
