@@ -1,11 +1,11 @@
 {
-    "name": "harriescc/kuaidi100",
+    "name": "jiageng-vip/kuaidi100",
     "description": "基于快递100，查询智能推送，云打印，短信",
     "license": "MIT",
     "authors": [
         {
-            "name": "harriescc",
-            "email": "harrieschen@gmail.com"
+            "name": "jiageng",
+            "email": "jiageng_vip@163.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HarriesCC\\Kuaidi100\\": "src"
+            "Jiageng-vip\\Kuaidi100\\": "src"
         }
     }
 }
