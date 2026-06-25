@@ -1,16 +1,16 @@
 <?php
 
 
-namespace HarriesCC\Kuaidi100;
+namespace Jiageng\Kuaidi100;
 
-use HarriesCC\Kuaidi100\Exceptions\Exception;
-use HarriesCC\Kuaidi100\Exceptions\HttpException;
-use HarriesCC\Kuaidi100\Exceptions\InvalidArgumentException;
+use Jiageng\Kuaidi100\Exceptions\Exception;
+use Jiageng\Kuaidi100\Exceptions\HttpException;
+use Jiageng\Kuaidi100\Exceptions\InvalidArgumentException;
 
 /**
  * 快递查询类
  * Class Tracker
- * @package HarriesCC\Kuaidi100
+ * @package Jiageng\Kuaidi100
  */
 class Tracker extends Base
 {
