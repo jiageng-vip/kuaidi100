@@ -1,7 +1,7 @@
 ## 安装
 
 ```sybase
-composer require harriescc/kuaidi100
+composer require jiageng/kuaidi100
 ```
 
 ### 实现功能
@@ -17,7 +17,7 @@ composer require harriescc/kuaidi100
 ### 实时查询
 
 ```php
-use HarriesCC\Kuaidi100\Tracker;
+use Jiageng\Kuaidi100\Tracker;
 
 try {
     $kuaidi = new Tracker([
@@ -33,7 +33,7 @@ try {
 ### 智能查询（不推荐使用，查询结果不准）
 
 ```php
-use HarriesCC\Kuaidi100\Tracker;
+use Jiageng\Kuaidi100\Tracker;
 
 try {
     $kuaidi = new Tracker([
@@ -50,7 +50,7 @@ try {
 ### 订阅推送
 
 ```php
-use HarriesCC\Kuaidi100\Poll;
+use Jiageng\Kuaidi100\Poll;
 
 try {
     $kuaidi = new Poll([
@@ -70,7 +70,7 @@ try {
 ### 云打印
 
 ```php
-use HarriesCC\Kuaidi100\CloudPrint;
+use Jiageng\Kuaidi100\CloudPrint;
 
 try {
     $kuaidi = new CloudPrint([
