@@ -1,10 +1,10 @@
 <?php
 
 
-namespace HarriesCC\Kuaidi100;
+namespace Jiageng\Kuaidi100;
 
-use HarriesCC\Kuaidi100\Exceptions\HttpException;
-use HarriesCC\Kuaidi100\Exceptions\InvalidArgumentException;
+use Jiageng\Kuaidi100\Exceptions\HttpException;
+use Jiageng\Kuaidi100\Exceptions\InvalidArgumentException;
 
 /**
  * 订阅推送类
